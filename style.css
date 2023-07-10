@@ -40,6 +40,7 @@ font-family: 'Open Sans', sans-serif;
     /* margin: 240px 639px 1509px 147px; */
     padding: 15px 30px ;
     border-radius: 5px;
+    /* width: 50; */
 }
 
 /* Featured section start's from here */
@@ -108,6 +109,11 @@ font-family: 'Open Sans', sans-serif;
 .insta{
     text-align: center;
     margin-top: 130px;
+    font-size: 22px;
+}
+.para{
+    color: #27272799;
+    font-size: 18px;
 }
 
 
@@ -127,3 +133,36 @@ font-family: 'Open Sans', sans-serif;
 /*insta section complete here */
 
 /* latest deal section start's from here */
+
+.latest-deal{
+    background-image: url("asset/bg.png");
+    margin: 100px;
+    height: 400px;
+    width: 85%;
+    object-fit: cover;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+}
+.get-deal{
+   padding-top: 100px;
+}
+.signup-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 15px;
+    
+}
+.deal{
+    padding-top: 60px;
+    font-size: 30px;
+}
+.email{
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+/* latest deal section end's here  */
