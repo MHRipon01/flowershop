@@ -1,4 +1,28 @@
+body{
+    font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+}
+
 *{
     margin:0px;
  
+}
+
+.banner{
+    background-color: #E554731A;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.flower{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-content{
+    margin-left:90px;
+    width: 400px;
+    margin-top: 240px;
 }
