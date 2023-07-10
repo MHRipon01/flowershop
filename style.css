@@ -103,3 +103,27 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /* hot deal section ends here */
+
+/* insta section start's from here */
+.insta{
+    text-align: center;
+    margin-top: 130px;
+}
+
+
+
+.img-container{
+    display: flex;
+    /* border: 10px red solid; */
+    padding: 50px 240px 130px 240px;
+    justify-content: space-evenly;
+}
+.img-container img{
+    height: 250px;
+    width: 250px; 
+    padding-right: 15px;
+    /* box-shadow: 20px 20px 20px 20px gray; */
+}
+/*insta section complete here */
+
+/* latest deal section start's from here */
