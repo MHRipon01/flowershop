@@ -5,24 +5,101 @@ font-family: 'Open Sans', sans-serif;
 
 *{
     margin:0px;
+    padding: 0;
+    box-sizing: border-box;
  
 }
+/* banner section from here */
+
 
 .banner{
     background-color: #E554731A;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 100vh;
     
 }
 .flower{
-    height: 100%;
-    width: 100%;
+    
+    width: 50%;
     object-fit: cover;
 }
-
+.flower img{
+    height: 100%;
+}
 .banner-content{
+    width: 50%;
     margin-left:90px;
-    width: 400px;
     margin-top: 240px;
 }
+
+.btn{
+    background-color: #E55473;
+    color: #FFFFFF;
+    border-style: none;
+    /* margin: 240px 639px 1509px 147px; */
+    padding: 15px 30px ;
+    border-radius: 5px;
+}
+
+/* Featured section start's from here */
+.featured-section{
+    margin-top: 170px;
+    text-align: center;
+}
+
+.flower-names{
+    display: flex;
+    margin:50px 150px 200px 150px;
+    justify-content: center;
+    align-items: baseline;
+
+}
+.flower-img{
+    border: 10px solid white;
+    border-radius: 100px 20px;
+
+}
+.bouquet{
+   background-color: #0597A026;
+   height: 400px;
+}
+.pink-flower{
+    background-color: #A7216226;
+    height: 400px;
+    padding: 15px 30px 0px 10px;
+}
+.yellow-flower{
+    background-color: #477D1126;
+    height: 400px;
+}
+.name{
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+}
+/* featured section ends here */
+
+
+
+/* hot deal section start's here */
+.hot-deal{
+    background-color: #E554730D;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+.hot-deal img{
+    height: 65%;
+    margin-top: 100px;
+}
+.hot-deal-text{
+    text-align: center;
+    margin-top: 15%;
+}
+
+#discount{
+    font-size: 40px;
+}
+
+/* hot deal section ends here */
