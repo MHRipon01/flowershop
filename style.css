@@ -174,7 +174,6 @@ font-family: 'Open Sans', sans-serif;
     color: rgb(80, 44, 223);
     margin-bottom: 70px;
     font-size: 28px;
-    font-family: cursive;
 }
 .products-head:hover{
     color: red;
@@ -185,7 +184,6 @@ font-family: 'Open Sans', sans-serif;
 }
 .product-flowers{
     display: flex;
-    /* width: fit-content; */
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 90px;
@@ -268,6 +266,7 @@ font-family: 'Open Sans', sans-serif;
     border-radius: 10px;
     padding: 15px;
     margin-top: 0px;
+    border-style: none;
 }
 
 
