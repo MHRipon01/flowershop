@@ -9,6 +9,10 @@ font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
  
 }
+.size{
+    font-size: 21px;
+}
+
 /* banner section from here */
 
 
@@ -18,6 +22,19 @@ font-family: 'Open Sans', sans-serif;
     justify-content: space-between;
     height: 100vh;
     
+}
+#shop-name{
+    font-size: 35px;
+}
+#pushpo{
+    color: rgba(255, 0, 0, 0.819);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#shop{
+    color: rgba(0, 0, 255, 0.707);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
 .flower{
     
@@ -42,6 +59,9 @@ font-family: 'Open Sans', sans-serif;
     border-radius: 5px;
     /* width: 50; */
 }
+.btn:hover{
+    cursor: pointer;
+}
 
 /* Featured section start's from here */
 .featured-section{
@@ -58,7 +78,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .flower-img{
     border: 10px solid white;
-    border-radius: 100px 20px;
+    border-radius: 200px 200px 2px 2px;
 
 }
 .bouquet{
@@ -116,8 +136,11 @@ font-family: 'Open Sans', sans-serif;
     color: #27272799;
     font-size: 18px;
 }
+.para:hover{
+    color: darkmagenta;
+}
 
-.insta-img1{
+/* .insta-img1{
     border-radius: 0px 150px  0px 0px   ;
 }
 .insta-img2{
@@ -128,7 +151,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .insta-img4{
     border-radius:  0px  0px 0px 150px  ;
-}
+} */
 
 
 .img-container{
@@ -145,18 +168,84 @@ font-family: 'Open Sans', sans-serif;
 }
 /*insta section complete here */
 
+/* categories section start's from here */
+.products-head{
+    text-align: center;
+    color: rgb(80, 44, 223);
+    margin-bottom: 70px;
+    font-size: 28px;
+    font-family: cursive;
+}
+.products-head:hover{
+    color: red;
+}
+.products{
+    height: 100vh;
+   
+}
+.product-flowers{
+    display: flex;
+    /* width: fit-content; */
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 90px;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.product-flowers img{
+    height: 350px;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+    /* margin: 30px 2px 200px 250px; */
+    align-items: center;
+}
+.flower{
+    padding: 10px;
+    /* margin: 20px 50px; */
+}
+.flower1{
+    background-color: #9bE8CA;
+    border-radius: 0px 150px  0px 0px   ;
+    /* margin-left: 200px; */
+}
+.flower2{
+    border-radius:   10px 10px 130px 150px  ;
+    background-color: #E55473;
+}
+.flower3{
+    background-color: #ebdade;
+    border-radius: 130px 150px  10px 10px   ;
+
+}
+.flower4{
+    background-color: #6D6F71;
+    border-radius: 150px 0px  0px 0px ;
+}
+.see-all{
+    color: white;
+    /* text-align: center;
+    justify-content: center; */
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+/* categories section end's here  */
+
 /* latest deal section start's from here */
 
 .latest-deal{
     background-image: url("asset/bg.png");
-    margin: 100px;
+    margin: 60px;
     height: 400px;
     width: 85%;
     object-fit: cover;
     background-size: cover;
     text-align: center;
     border-radius: 12px;
-    margin: auto;
 }
 .get-deal{
    padding-top: 100px;
@@ -166,7 +255,9 @@ font-family: 'Open Sans', sans-serif;
     justify-content: center;
     padding-top: 40px;
     gap: 15px;
-    
+}
+.btn:hover{
+    background-color: rebeccapurple;
 }
 .deal{
     padding-top: 60px;
@@ -226,6 +317,9 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.feedback-btn:hover{
+   color: blue;
+}
 .footer-btn{
     height: 60px;
     width: 150px;
@@ -236,6 +330,9 @@ footer{
     border-radius: 7px;
     background-color:#db6982;
     border-style: none;
+}
+.social-btn{
+    font-size: 17px;
 }
 .copyright{
     color: #ebdade;
